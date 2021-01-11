@@ -2,6 +2,8 @@
 
 Hi! Welcome to visit my project! This project is a simple movie list app which use **TMDB** api and written in **React Native**.
 
+<iframe width="344" height="720" src="https://www.loom.com/embed/a5a5b57d9da74655ba078c7f80c0ac8c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## Dev Setup
 
 ### Getting started
