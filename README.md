@@ -4,7 +4,7 @@ Hi! Welcome to visit my project! This project is a simple movie list app which u
 
 Movie List App - iPhone — Watch Video
 
-![Preview](https://cdn.loom.com/sessions/thumbnails/a5a5b57d9da74655ba078c7f80c0ac8c-with-play.gif)
+[![Preview](https://cdn.loom.com/sessions/thumbnails/a5a5b57d9da74655ba078c7f80c0ac8c-with-play.gif)](https://www.loom.com/share/a5a5b57d9da74655ba078c7f80c0ac8c)
 
 
 ## Dev Setup
