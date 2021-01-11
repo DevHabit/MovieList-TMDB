@@ -18,7 +18,7 @@ type SystemAction = {
 const initialState: SystemState = {
   isLoading: false,
   movieList: [],
-  isLoadingMore: true,
+  isLoadingMore: false,
 };
 
 const movieReducer = (state: SystemState, action: SystemAction) => {

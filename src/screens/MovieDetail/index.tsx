@@ -30,11 +30,20 @@ export const MovieDetail: React.FC<HomeStackNavProps<'MovieDetail'>> = ({
         <View style={styles.container}>
           <Title>{movie?.title}</Title>
           <Text style={styles.overview}>{movie?.overview}</Text>
-          <Text style={styles.date}>{movie?.release_date}</Text>
+          <List.Item
+            title="Release date"
+            description={movie?.release_date}
+            left={() => <List.Icon icon="calendar" />}
+          />
           <List.Item
             title="Votes"
             description={String(movie?.vote_count)}
             left={() => <List.Icon icon="account" />}
+          />
+          <List.Item
+            title="Avarage Rating"
+            description={movie?.vote_average}
+            left={() => <List.Icon icon="star" />}
           />
         </View>
       </ScrollView>
