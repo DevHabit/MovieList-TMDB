@@ -60,11 +60,11 @@ export const MovieList: React.FC<HomeStackNavProps<'MovieList'>> = ({
         data={state.movieList}
         renderItem={({item}) => (
           <MovieItem
-            key={String(item.id)}
             movie={item}
             onPress={() => navigation.navigate('MovieDetail', {movie: item})}
           />
         )}
+        keyExtractor={(item) => item.id.toString()}
         onRefresh={handleRefresh}
         refreshing={refreshing}
         ListFooterComponent={listFooter}
