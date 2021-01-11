@@ -3,7 +3,9 @@ import {RouteProp} from '@react-navigation/native';
 
 export type HomeStackParamList = {
   MovieList: undefined;
-  MovieDetail: undefined;
+  MovieDetail: {
+    id: number;
+  };
 };
 
 export type HomeStackNavProps<T extends keyof HomeStackParamList> = {

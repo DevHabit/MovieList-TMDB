@@ -24,7 +24,7 @@ const movieReducer = (state: SystemState, action: SystemAction) => {
     case MovieActionType.GET_MOVIE_LIST:
       return {
         ...state,
-        movieList: action.payload,
+        movieList: action.payload.data,
         isLoading: false,
       };
     default:
