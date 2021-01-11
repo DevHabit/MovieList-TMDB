@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     width: normalize(150),
     height: normalize(150),
     borderRadius: 10,
+    backgroundColor: 'grey',
   },
   contentPanel: {
     marginLeft: normalize(10),

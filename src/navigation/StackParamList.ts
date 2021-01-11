@@ -1,10 +1,11 @@
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RouteProp} from '@react-navigation/native';
+import {Movie} from '@types';
 
 export type HomeStackParamList = {
   MovieList: undefined;
   MovieDetail: {
-    id: number;
+    movie: Movie;
   };
 };
 
